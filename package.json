@@ -3,6 +3,7 @@
   "version": "0.7.0",
   "description": "Facebook's PropTypes standalone extensible implementation for browser and server",
   "main": "src/index.js",
+  "module": "dist/typed-props.js",
   "scripts": {
     "build": "npm run build:dev && npm run build:prod",
     "build:dev": "webpack",
